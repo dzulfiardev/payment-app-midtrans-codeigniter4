@@ -1,0 +1,40 @@
+body {
+  min-height: 100vh;
+}
+.main_content {
+  min-height: 70vh;
+  padding: 0 30px;
+}
+.footer_ {
+  bottom: 0;
+  margin-top: 50px;
+  width: 100%;
+}
+
+/* Warna */
+
+.bg_lightblue {
+  background-color: lightblue;
+}
+.bg_lightgreen {
+  background-color: lightgreen;
+}
+.bg_tomato {
+  background-color: tomato;
+}
+.btn_darkgreen {
+  background: rgb(26, 87, 26)!important;
+  color: white!important;
+}
+.btn_darkgreen:hover {
+  background: rgb(27, 131, 27)!important;
+  transition: 300ms;
+}
+
+
+@media (max-width: 700px) {
+ .res_display_block{
+   display: block!important;
+ }
+}
+

@@ -412,9 +412,9 @@ CREATE TABLE `order` (
 
 INSERT INTO `order` (`order_id`, `user_id`, `first_name`, `last_name`, `gross_amount`, `payment_type`, `transaction_time`, `time_stamp`, `bank`, `va_number`, `pdf_url`, `status_code`) VALUES
 (1615946968, 7, 'test', 'user', 400000, 'bank transfer', '2021-03-16', '2021-03-16 02:33:45', 'bca', '19037353550', 'https://app.sandbox.midtrans.com/snap/v1/transactions/b81b9de0-7ca3-4070-8507-d4a60058724b/pdf', '201'),
-(1615947264, 7, 'test', 'user', 400000, 'credit card', '2021-03-17', '2021-03-16 21:43:44', 'bni', 'N/A', 'https://api.sandbox.veritrans.co.id/v2/token/rba/redirect/481111-1114-668bcf83-04f0-4855-8198-744d7ef7ad4b', '200'),
-(1615977304, 8, '', '', 400000, 'bank transfer', '2021-03-17', '2021-03-16 22:35:15', 'bca', '19037381871', 'https://app.sandbox.midtrans.com/snap/v1/transactions/4a9d67a6-c17c-4e78-9dee-7bbd1e110192/pdf', '201'),
-(1615977693, 8, '', '', 400000, 'bank transfer', '2021-03-17', '2021-03-16 22:41:43', 'bni', '9881903771801372', 'https://app.sandbox.midtrans.com/snap/v1/transactions/db94fc3e-7680-437f-a73a-869615f9602f/pdf', '201'),
+(1615947264, 7, 'test', 'user', 400000, 'credit card', '2021-03-17', '2021-03-17 21:43:44', 'bni', 'N/A', 'https://api.sandbox.veritrans.co.id/v2/token/rba/redirect/481111-1114-668bcf83-04f0-4855-8198-744d7ef7ad4b', '200'),
+(1615977304, 8, '', '', 400000, 'bank transfer', '2021-03-17', '2021-03-17 22:35:15', 'bca', '19037381871', 'https://app.sandbox.midtrans.com/snap/v1/transactions/4a9d67a6-c17c-4e78-9dee-7bbd1e110192/pdf', '201'),
+(1615977693, 8, '', '', 400000, 'bank transfer', '2021-03-17', '2021-03-17 22:41:43', 'bni', '9881903771801372', 'https://app.sandbox.midtrans.com/snap/v1/transactions/db94fc3e-7680-437f-a73a-869615f9602f/pdf', '201'),
 (1616034449, 9, 'zuni', 'anifah', 400000, 'bank transfer', '2021-03-18', '2021-03-18 02:27:55', 'permata', '190002894439191', 'https://app.sandbox.midtrans.com/snap/v1/transactions/f97c59ee-5987-42d8-83c5-e1b9e4c2722d/pdf', '201'),
 (1616034490, 9, 'zuni', 'anifah', 400000, 'credit card', '2021-03-18', '2021-03-18 02:28:34', 'bni', 'N/A', 'https://api.sandbox.veritrans.co.id/v2/token/rba/redirect/481111-1114-b8ed9835-7723-4624-a0d6-fedafbd8aba6', '200'),
 (1616036100, 8, 'User', 'dzulfikar', 400000, 'credit card', '2021-03-18', '2021-03-18 02:55:23', 'bni', 'N/A', 'https://api.sandbox.veritrans.co.id/v2/token/rba/redirect/481111-1114-53900ae6-81f3-4b76-8412-f0f10d0916a2', '200');

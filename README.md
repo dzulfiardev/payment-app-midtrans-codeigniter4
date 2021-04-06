@@ -1,4 +1,4 @@
-# Simple Payment App Modtrans API Codeigniter 4
+# Simple Payment App Midtrans API Codeigniter 4
 
 This is a simple payment web app using the Midtrans Payment Gateway API. I use Codeigniter 4 framework, login & multi user system, transaction record page.
 
